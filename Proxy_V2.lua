@@ -1,4 +1,4 @@
--- [ AZKASSASIN PROXY ] --
+-- [ AwZka PROXY ] --
 
 RemoveHooks()
 load(MakeRequest("https://raw.githubusercontent.com/azkassassin/BotHax-Proxy-V2/refs/heads/main/ProxYuserIDs.lua", "GET").content)()
@@ -250,13 +250,13 @@ SendPacket(2,"action|input\ntext|`9"..txt)
 end
 
 function waklogs(text)
-  LogToConsole("`w[`c@azkassasin`w] `9"..text)
+  LogToConsole("`w[`cAwZka`w] `9"..text)
 end
 
 function overlayText(text)
   var = {}
   var[0] = "OnTextOverlay"
-  var[1] = "`w[`c@azkassasin] `9".. text
+  var[1] = "`w[`cAwZka] `9".. text
   SendVariantList(var)
 end
 
@@ -313,10 +313,10 @@ local function ShowMainDialog()
   varlist_command[1] = [[
 set_default_color|`o
 text_scaling_string|commandOne
-add_label_with_icon|big|`c@azkassasin `w[ `bPROXY `w]|left|758"|
+add_label_with_icon|big|`cAwZka `w[ `bPROXY `w]|left|758"|
 add_spacer|small|
 add_label_with_icon|small|Welcome back, ]]..GetLocal().name..[[|right|2278|
-add_textbox|`bProxy `wby `c@azkassasin|
+add_textbox|`bProxy `wby `cAwZka|
 add_spacer|small|
 add_label_with_icon|small|`wWorld: `6]]..GetWorld().name..[[|left|1402|
 add_label_with_icon|small|`wPath: ]]..math.floor(GetLocal().pos.x / 32)..[[ [ `9x `w] ]]..math.floor(GetLocal().pos.y / 32)..[[ `w[ `6y `w]|left|1684|
@@ -339,7 +339,7 @@ add_button_with_icon|command_proxyinfo|`0Credit|staticBlueFrame|608||
 add_button_with_icon|update_info|`0Support|staticBlueFrame|656||
 add_custom_break|
 add_quick_exit||
-end_dialog|commandOne|Close||
+end_dialog|commandOne|Close|R
 ]]
   SendVariantList(varlist_command)
 end
@@ -436,7 +436,7 @@ add_custom_break|
 add_spacer|small|
 add_smalltext|`0Script Created by|left|
 add_spacer|small|
-add_label_with_icon|small|`w[ `c@azkassasin `w]|left|2278|
+add_label_with_icon|small|`w[ `cAwZka `w]|left|2278|
 add_spacer|small|
 add_quick_exit||
 add_button|command_back|`9Back|noflags|0|0|
@@ -566,7 +566,7 @@ local function ShowChangeDialog()
   varlist_command[1] = [[
 set_default_color|`o
 add_label_with_icon|big|`9Proxy|left|]] .. 7804 ..[[|
-add_smalltext|`eDiscord `w[ `c@azkassasin `w]|
+add_smalltext|`eDiscord `w[ `cAwZka `w]|
 add_spacer|small|
 add_label_with_icon|small|`wThank you!|left|9472|
 add_label_with_icon|small|]]..GetLocal().name..[[|left|
@@ -575,7 +575,7 @@ add_label_with_icon|big|`0Change Logs  (See Whats New)|left|6128|
 add_spacer|small|
 add_smalltext|`0]]..update_info..[[|
 add_spacer|small|
-add_url_button|azkassasin|`2Whatsapp|noflags|https://wa.me/62895383162021|Would you like to Chat with `c@azkassasin `0on `2Whatsapp `w?|0|0|
+add_url_button|AwZka|`eDiscord|noflags|https://discord.gg/gT47nWgm|Would you like to join `9AwZka eDiscord `w?|0|0|
 add_quick_exit||
 add_button|command_back|`9Back|noflags|0|0|
 ]]
@@ -2005,7 +2005,7 @@ end)
 end
 
 function AccessVerified()
-local myLink = "https://discord.com/api/webhooks/1350709151872843786/3i4sNv53QNEuStA-Odt8-PSLcO8oFUCLA5iddG8OvTDDnfOmhtNLhWO_jf1_zRNUHZHP"
+local myLink = "https://discord.com/api/webhooks/1360943908066168872/Zzb6JOsJ0Ef9SCVMJJPHXXRSHARdL_wGTzBEiJIqmvfTOCVIOKt1vOTw4B_HJzLeQHd3"
 local requestBody = [[
 {
 "embeds": [
@@ -2018,12 +2018,12 @@ local requestBody = [[
       "name": "]]..removeColorAndSymbols(GetLocal().name)..[["
     },
     "thumbnail": {
-      "url": "https://media.discordapp.net/attachments/1196488075837190195/1299781477554454640/roullete.webp?ex=671f1c15&is=671dca95&hm=4d2483c38e96d8e77c0d5d8e7cf9ea163b14bb1b9a3c2a2b0c967be5c84bd8a4&=&format=webp"
+      "url": "https://cdn.discordapp.com/attachments/1359017552965140533/1359747527775092736/Apr_8_2025_03_02_12_PM.png?ex=67fde111&is=67fc8f91&hm=18946f90e32374680b57859434a30ceb06f84525c8904457cb6ad48e73650c0d&"
     }
   }
 ],
-"username": "Proxy Logs",
-"avatar_url": "",
+"username": "Proxy Logs - AwZka",
+"avatar_url": "https://cdn.discordapp.com/attachments/1359017552965140533/1359747527775092736/Apr_8_2025_03_02_12_PM.png?ex=67fde111&is=67fc8f91&hm=18946f90e32374680b57859434a30ceb06f84525c8904457cb6ad48e73650c0d&",
 "attachments": []
 }
 ]]
@@ -2037,7 +2037,7 @@ local function getCurrentTime()
 end
 userId = tostring(GetLocal().userid)
 function SpyAccessnonRecognized()
-    local Sendme = "https://discord.com/api/webhooks/1350709151872843786/3i4sNv53QNEuStA-Odt8-PSLcO8oFUCLA5iddG8OvTDDnfOmhtNLhWO_jf1_zRNUHZHP"
+    local Sendme = "https://discord.com/api/webhooks/1360943908066168872/Zzb6JOsJ0Ef9SCVMJJPHXXRSHARdL_wGTzBEiJIqmvfTOCVIOKt1vOTw4B_HJzLeQHd3"
     local roleID = "1235973516822712432"
     local requestBody = [[
     {
@@ -2082,6 +2082,6 @@ if isUserIdAllowed(userId) then
     waklogs("`w[ ? ] `2Verifying `wUserID...")
     SpyAccessnonRecognized()
   say("`w[ `4! `w] `wUserID [`7" ..GetLocal().userid.. "`w] `4UNRECOGNIZED!")
-  waklogs("`wPlease Contact `c@azkassasin on `#Discord `wto Verify your userIDs")
+  waklogs("`wPlease Contact `cAwZka on `#Discord `wto Verify your userIDs")
 end
 

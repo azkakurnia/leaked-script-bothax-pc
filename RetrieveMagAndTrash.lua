@@ -1,8 +1,8 @@
 --[ Please stand on the Magplant ] --
 
 -- DO NOT TOUCH ANY PART BELOW --
-IDs = 1656
-SpeedTrash = 150
+IDs = 15343
+SpeedTrash = 500
 
 SendPacket(2,"action|input\ntext|`bSCRIPT `0BY `c@AwZka `2ACTIVATED !! `0(tongue)")
 ps =
@@ -37,7 +37,7 @@ trash = true
 while trash do
 	SendPacket(2, "action|dialog_return\ndialog_name|magplant_edit\nx|" .. magX .. "|\ny|" .. magY .. "|\nbuttonClicked|withdraw")
 	Sleep(SpeedTrash)
-	SendPacket(2, "action|dialog_return\ndialog_name|trash\nitem_trash|" .. IDs .. "|\nitem_count|250")
+	SendPacket(2, "action|dialog_return\ndialog_name|trash\nitem_trash|" .. IDs .. "|\nitem_count|50")
 	Sleep(SpeedTrash)
 end
 RemoveHooks()

@@ -1,5 +1,5 @@
-WORLD_COPY = "SONG"
-WORLD_PASTE = "AWZKASONG"
+WORLD_COPY = "FILAS4"
+WORLD_PASTE = "DESIGNZANGH"
 debugStore = "buy_composerspack"
 
 

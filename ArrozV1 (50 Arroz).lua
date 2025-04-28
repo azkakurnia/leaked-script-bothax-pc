@@ -1,5 +1,5 @@
 DropPos = {
-  32, 11 -- ( X, Y ) --
+  94, 53 -- ( X, Y ) --
 }
 
 World = GetWorld().name

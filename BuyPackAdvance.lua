@@ -1,7 +1,7 @@
 Settings = {
   PackName = "buy_cookingpack",
   
-  DropPos = {8, 6}, 
+  DropPos = {89, 53}, 
   
   TrashID = {
     4572, 956, 4562, 4564, 4578, 4586, 874, 868, 4766, 4676, 4666, 822, 4582, 4618
