@@ -40,11 +40,10 @@ Please help us by keeping things respectful:
 
 Need help or just wanna chat? Reach me here:
 
-- 📱 **WhatsApp:** 0895-3831-62021  
-- 🕹️ **Discord Username:** `@azkassassin`  
+- 🕹️ **Discord Username:** `@azkassasin`  
 - 🔗 **Join Our Discord Server:** [https://discord.gg/gT47nWgm](https://discord.gg/gT47nWgm)
 
-> 🧠 We’re building a solid community — don't miss out!
+> 🧠 We’re building a solid community, don't miss out!
 
 ---
 
@@ -57,7 +56,7 @@ If you enjoy what I share, please consider:
 - 🗨️ **Joining** the Discord server and being part of the movement!
 
 Every follow, every star, and every member helps this project grow! 💪  
-Let’s create something amazing — together. 💥
+Let’s create something amazing together! 💥
 
 ---
 
